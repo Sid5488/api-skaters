@@ -1,0 +1,8 @@
+CREATE TABLE tbl_skaters(
+	id INT AUTO_INCREMENT NOT NULL,
+  	name VARCHAR(100) NOT NULL,
+  	age INT NOT NULL,
+  	base VARCHAR(7) NOT NULL,
+  
+  	PRIMARY KEY(id)
+);
